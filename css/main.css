@@ -23,7 +23,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px;
+  padding: 50px 10px 110px 10px;
 }
 
 .nav li a {
@@ -63,27 +63,37 @@ header {
   border-radius: 5px;
 }
 
-.hero-img {
-  margin-left: 50px;
+.content.col-5 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 80px;
 }
 
 .blue-bg-right {
-  width: 800px;
+  width: 700px;
   height: 380px;
   background-color: #5265E1;
-  margin-left: 100px;
+  margin-left: 160px;
   margin-top: -320px;
   border-radius: 150px 0 0 150px;
-}
-
-.container.text {
-  padding: 5% 15% 3% 15%;
-  text-align: center;
 }
 
 article p {
   color: #9194a1;
   font-size: 1.1rem;
+}
+
+.blue-bg-left {
+  background-color: #5265E1;
+  width: 700px;
+  height: 380px;
+  margin-top: -250px;
+  margin-left: -125px;
+  border-radius: 0 0 150px 0;
+}
+
+#myTab {
+  margin-bottom: 80px;
 }
 
 /*!

@@ -18,8 +18,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
-
+    padding: 50px 10px 110px 10px;
 }
 .nav li a {
     letter-spacing: 1px;
@@ -51,26 +50,33 @@ header{
     box-shadow: 3px 3px 5px rgb(200, 201, 208);
     border-radius: 5px;
 }
-.hero-img{
-    margin-left: 50px;
-}
+.content.col-5{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+} 
 .blue-bg-right{
-    width: 800px;
+    width: 700px;
     height: 380px;
     background-color: $primary;
-    margin-left: 100px;
+    margin-left: 160px;
     margin-top: -320px;
     border-radius: 150px 0 0 150px;
-}
-
-.container.text{
-    padding: 5% 15% 3% 15%;
-    text-align: center;
 }
  article p{
     color: rgb(145, 148, 161);
     font-size: 1.1rem;
- }
-
+}
+.blue-bg-left{
+    background-color: $primary;
+    width: 700px;
+    height: 380px;
+    margin-top: -250px;
+    margin-left: -125px;
+    border-radius: 0 0 150px 0;
+}
+#myTab{
+    margin-bottom: 80px;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
