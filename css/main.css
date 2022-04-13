@@ -50,9 +50,11 @@ header {
 }
 
 .blue-btn {
+  width: 150px;
+  font-size: 0.8rem;
   background-color: #5265E1;
   color: white;
-  margin-right: 15px;
+  border-radius: 5px;
 }
 
 .get {
@@ -61,6 +63,7 @@ header {
   -webkit-box-shadow: 3px 3px 5px #c8c9d0;
           box-shadow: 3px 3px 5px #c8c9d0;
   border-radius: 5px;
+  margin-left: 15px;
 }
 
 .content.col-5 {
@@ -71,7 +74,7 @@ header {
 
 .blue-bg-right {
   width: 700px;
-  height: 380px;
+  height: 350px;
   background-color: #5265E1;
   margin-left: 160px;
   margin-top: -320px;
@@ -85,15 +88,81 @@ article p {
 
 .blue-bg-left {
   background-color: #5265E1;
-  width: 700px;
-  height: 380px;
+  width: 400px;
+  height: 350px;
   margin-top: -250px;
   margin-left: -125px;
   border-radius: 0 0 150px 0;
 }
 
 #myTab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  width: 600px;
+  margin: auto;
   margin-bottom: 80px;
+}
+
+article.nav-item {
+  border-bottom: none;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: solid 3px #FA5959;
+}
+
+.container-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.card-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 350px;
+  gap: 10px;
+  padding: 5px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 10px 13px -2px rgba(97, 98, 102, 0.13);
+          box-shadow: 0px 10px 13px -2px rgba(97, 98, 102, 0.13);
+  border-radius: 10px;
+}
+
+.dots {
+  margin-bottom: 15px;
+}
+
+.card-icons-two {
+  margin-top: 50px;
+}
+
+.card-icons-three {
+  margin-top: 100px;
+}
+
+.blue-btn-extension {
+  width: 80%;
+  font-size: 0.8rem;
+  background-color: #5265E1;
+  color: white;
+  border-radius: 5px;
 }
 
 /*!
@@ -4487,7 +4556,7 @@ fieldset:disabled .btn {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: none;
   isolation: isolate;
 }
 
@@ -4501,7 +4570,7 @@ fieldset:disabled .btn {
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
   background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  border-color: none;
 }
 
 .nav-tabs .dropdown-menu {
