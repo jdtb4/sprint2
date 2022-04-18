@@ -98,7 +98,7 @@ $nav-tabs-link-hover-border-color: none;
     display: flex;
     justify-content:center;
     margin-bottom: 50px;
-    gap: 20px;
+    gap: 30px;
 }
 .card-icons{
     display: flex;
@@ -128,5 +128,31 @@ $nav-tabs-link-hover-border-color: none;
     color: white;
     border-radius: 5px;   
 }
+.container.accordion{
+    width: 600px;
+    margin-bottom: 80px;
+}
+.accordion-button{
+    height: 60px;
+}
+.accordion-header{
+    border-top:  1px solid #dee2e6;
+}
+
+$accordion-button-focus-box-shadow: none;
+$accordion-button-active-bg: none;
+$accordion-button-active-color: black;
+$accordion-button-icon: url(/images/icon-arrow.svg);
+$accordion-border-width: 0px;
+
+.btn.btn-accordion{
+    margin-top: 40px;
+    width: 100px;
+    font-size: 0.8rem;
+    background-color: $primary;
+    color: white;
+    border-radius: 5px;
+}
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
